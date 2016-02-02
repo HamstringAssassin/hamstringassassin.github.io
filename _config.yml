@@ -11,4 +11,11 @@ github_username:  HamstringAssassin
 # Build settings
 markdown: kramdown
 
-paginate: 1
+port: 8080
+# Build settings
+
+permalink: pretty
+
+sass:
+  sass_dir: assets/css
+  style: :nested
