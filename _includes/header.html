@@ -1,6 +1,6 @@
 <header>
 	
-	<div class="logo"></div>
+	<div class="logo">{% include /icons/logo.html %}</div>
 
 	<nav>
 		<a href="">About Me</a>
@@ -9,8 +9,8 @@
 		<a href="">Contact</a>
 	</nav>
 
-	<h1><span>Hammy Assassin</span></h1>
+	<h1><span> {{ site.title }}</span></h1>
 
-	<p class="kicker">Surfer / iOS Developer / Swimmer</p>
+	<p class="kicker">{{ site.description }}</p>
 
 </header>
