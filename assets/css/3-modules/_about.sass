@@ -1,20 +1,14 @@
-h3
-	@extend %small-bold
-	color: $accent
-	text-align: center
-	padding: 100px 0 30px
-
 .face-lockup
 	max-width: 780px
 	+display(flex)
 	margin: 0 auto
 	+align-items(center)
-	+justify-content(space-around)
+	+justify-content(space-between)
 
 	.face-img
+		border-radius: 50%
 		+size(200px)
-		background: url(/assets/img/face.png)
-		order: 3
+		+order(3)
 
 	[class^="icon-"]
 		+size(100px)
@@ -25,13 +19,13 @@ h3
 			fill: $accent-dark
 
 		&.icon-pencil
-			order: 1
+			+order(1)
 		&.icon-mouse
-			order: 2
+			+order(2)
 		&.icon-web
-			order: 4
+			+order(4)
 		&.icon-video
-			order: 5
+			+order(5)
 
 @media screen and (max-width: 650px)
 	.face-lockup
@@ -90,8 +84,11 @@ h3
 				margin: 2px
 
 		@for $i from 1 through 10
-			&.skill-#{$i} span:nth-child(n+#{$i})
-				background: $bgcolor
+			&.skill-#{$i} span:nth-child(n+#{$i+1})
+				@extend %skill-color
+
+%skill-color
+	background: $bgcolor
 
 @media screen and (max-width: 541px)
 	.skill-lockup
