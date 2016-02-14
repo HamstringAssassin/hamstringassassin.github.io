@@ -1,0 +1,47 @@
+#portfolio settings
+title: Hammy Assassin
+email: 
+description: Surfer / iOS Developer / Swimmer
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: HammyAssassin
+github_username:  HamstringAssassin
+
+#Menu Item List
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+- {name: Map, url: '#map'}
+
+
+#Skill List
+skills:
+  - {name: Communication, value: '9'}
+  - {name: Organisation, value: '7'}
+  - {name: Learning, value: '10'}
+  - {name: Teaching, value: '6'}
+  - {name: Planning, value: '7'}
+  - {name: Visual Design, value: '4'}
+  - {name: UX Design, value: '8'}
+  - {name: Programming, value: '9'}
+
+#work-section
+projects:
+  - {name: typo international, folder: 'proj-1'}
+  - {name: American Apparel, folder: 'proj-2'}
+  - {name: Crisp icons, folder: 'proj-3'}
+  - {name: typo international, folder: 'proj-4'}
+  - {name: typo international, folder: 'proj-5'}
+  - {name: typo international, folder: 'proj-6'}
+  - {name: typo international, folder: 'proj-7'}
+  - {name: typo international, folder: 'proj-8'}
+
+#Site Default content and images here.
+logo: 'logo.svg'
+bg-img: 'hero-bg.jpg'
+
+avatar: face.png
+
+blurb: <p><strong>Alan specializes in making iOS Apps.</strong> He loves to code in both Objective-C and Swift. He also dables in web design and likes to think that he has a good eye for aesthetics.</p><p>When hes not building beautiful, powerful, clean, award-winning apps, he can be found near large bodies of water. He loves surfing and has been known to drive for 8 hours to the Atlantic ocean to surf some of the most beautiful locations Ireland has to offer. He's also a competitive swimmer. So asking about water sports is a way to never shut him up. :) </p><p>For more on Al, you can catch him up <a href="https://twitter.com/HammyAssassin">here</a>...</p>
