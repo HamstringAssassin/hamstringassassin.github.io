@@ -18,14 +18,25 @@ menu:
 
 #Skill List
 skills:
-- {name: Communication, value: '9'}
-- {name: Organisation, value: '7'}
-- {name: Learning, value: '10'}
-- {name: Teaching, value: '6'}
-- {name: Planning, value: '7'}
-- {name: Visual Design, value: '4'}
-- {name: UX Design, value: '8'}
-- {name: Programming, value: '9'}
+  - {name: Communication, value: '9'}
+  - {name: Organisation, value: '7'}
+  - {name: Learning, value: '10'}
+  - {name: Teaching, value: '6'}
+  - {name: Planning, value: '7'}
+  - {name: Visual Design, value: '4'}
+  - {name: UX Design, value: '8'}
+  - {name: Programming, value: '9'}
+
+#work-section
+projects:
+  - {name: typo international, folder: 'proj-1'}
+  - {name: American Apparel, folder: 'proj-2'}
+  - {name: Crisp icons, folder: 'proj-3'}
+  - {name: typo international, folder: 'proj-4'}
+  - {name: typo international, folder: 'proj-5'}
+  - {name: typo international, folder: 'proj-6'}
+  - {name: typo international, folder: 'proj-7'}
+  - {name: typo international, folder: 'proj-8'}
 
 #Site Default content and images here.
 logo: 'logo.svg'
