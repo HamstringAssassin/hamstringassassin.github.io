@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 	smoothScroll(300);
+	workBelt();
 });
 
 // smoothScroll fuction is applied from the document ready function
@@ -15,5 +16,18 @@ function smoothScroll(duration) {
 				scrollTop: target.offset().top
 			}, duration);
 		}
+	});
+}
+
+function workBelt() {
+
+	$('.thumb-unit').click(function() {
+		$('.work-belt').css('left', '-100%');
+		$('.work-container').show();
+	});
+
+	$('.work-return').click(function() {
+		$('.work-belt').css('left','0%');
+		$('.work-container').hide(800);
 	});
 }

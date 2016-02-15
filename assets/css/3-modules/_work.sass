@@ -1,20 +1,28 @@
-.alt-section
-	background: $bgcolor
+.section-work
+	overflow-x: hidden
 
-.thumbnail-container
+.work-belt
+	width: 200%
+	position: relative
+	left: 0%
+	+transition(all 800ms)
+
+.thumb-wrap, .work-wrap
+	width: 50%
+	float: left
+
+.thumb-container
+	display: block
 	max-width: 960px
 	margin: 0px auto
-	padding-bottom: 100px
 	+clearfix
 
 	.thumb-unit
 		display: block
 		width: 25%
-		background: pink
 		float: left
 		position: relative
 		padding-top: 16%
-		overflow: hidden
 		cursor: pointer
 		background:
 			position: center center
@@ -48,7 +56,54 @@
 				font-size: 24px
 				line-height: 1.2
 
-		&:hover .thumb-overlay
-			@extend %animation
+		&:hover 
+			z-index: 2
+
+			.thumb-overlay
+				@extend %animation
+				opacity: 1
+
+
+
+.work-container
+	max-width: 600px
+	margin: 0px auto
+	padding: 0 15px
+	position: relative
+	display: none
+	
+	.work-return
+		+position(absolute, -10px null null -60px)
+		+size(40px)
+		text-transform: uppercase
+		cursor: pointer
+		opacity: 0.5
+		font-weight: 600
+		
+		path
+			fill: rgba(0,0,0,0.4)
+
+		&:hover
 			opacity: 1
-			
+
+	h4
+		color: $accent
+		font-weight: 300
+		text-transform: uppercase
+		font-size: 28px
+		line-height: 1.2
+		margin: 0 0 20px
+	
+	img
+		max-width: 100%
+		margin-bottom: 20px
+
+
+@media (max-width: 740px)
+	.work-container
+
+		.work-return
+			left: 0px
+
+		h4
+			margin-left: 60px
