@@ -12,9 +12,9 @@
 	float: left
 
 .thumb-container
-	display: block
 	max-width: 960px
 	margin: 0px auto
+
 	+clearfix
 
 	.thumb-unit
@@ -29,6 +29,8 @@
 			repeat: no-repeat
 			size: cover
 		+perspective(300)
+		@if $animation != "bounceOut"
+			overflow: hitten
 
 		@media screen and (max-width: 760px)
 			width: 50%
@@ -36,16 +38,13 @@
 
 		
 		.thumb-overlay
-			+position(absolute, 0% 0px null 0px)
-			height: 100%
-			background: fade-out($accent, 0.1)
-			text-align: center
-			+display(flex)
+			+position(absolute)
 			+align-items(center)
 			+justify-content(space-around)
-			transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
-			opacity: 0
-			+transition(opacity, 300ms, ease-in, 300ms)
+			+display(flex)
+			background: fade-out($accent, 0.1)
+			text-align: center
+			@extend %animationstart_#{$animation}
 
 			strong
 				display: block
@@ -61,10 +60,8 @@
 			z-index: 2
 
 			.thumb-overlay
-				@extend %animation
+				@extend %#{$animation}
 				opacity: 1
-
-
 
 .work-container
 	max-width: 600px
