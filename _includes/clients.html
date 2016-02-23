@@ -7,19 +7,19 @@
 	</div>
 
 	<div class="clients-belt">
+	{% for client in site.data.portfolio.clients %}
 		<div class="client-unit">
 			<div class="client-face">
-				<img src="assets/img/clients/face-aaroni.jpg" alt="client-face">
-				<strong class="client-name">Scott Summers</strong>
-				<em class="client-title">Director of Design, Quebec International</em>
+				<img src="assets/img/clients/{{ client.avatar }}" alt="client-face">
+				<strong class="client-name">{{ client.name }}</strong>
+				<em class="client-title">{{ client.title }}</em>
 			</div>
 			<div class="client-content">
 				<div class="client-quote-mark">{% include icons/icon-quote-mark.html %}</div>
-				<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong> Maecenas imperdiet venenatis sodales. Nunc elementum scelerisque nibh, nec pellentesque lacus hendrerit sit amet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras luctus euismod augue, vitae pulvinar est feugiat vitae. Nunc ultricies facilisis mi sed commodo. Aliquam erat volutpat. Etiam id libero nunc.</p>
-
+				{{ client.quote }}
 			</div>
 		</div>
-
+	{% endfor %}
 	</div>
 
 	<div class="clients-logos">
