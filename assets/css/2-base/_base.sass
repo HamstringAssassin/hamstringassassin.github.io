@@ -31,8 +31,6 @@ h1, h2, h3, h4, h5, h6
   font-size: 10px
   line-height: 1.2
 
-
-
 p
   margin: 0 0 20px 0
 
@@ -80,8 +78,6 @@ img::-moz-selection
 body
   -webkit-tap-highlight-color: $selection-color
 
-
-
 // Basic Styles
 
 body
@@ -93,6 +89,9 @@ body
   -webkit-font-smoothing: antialiased
   -webkit-text-size-adjust: 100%
 
+svg
+  +size(100%)
+
 h3
   @extend %small-bold
   color: $accent
@@ -102,3 +101,10 @@ h3
 @media screen and (max-width: 480px)
   h3
     padding: 50px 0 50px
+
+section:nth-child(odd)
+  background: $bgcolor
+  padding-bottom: 100px
+
+  h3
+    color: darken($accent, 10%)
