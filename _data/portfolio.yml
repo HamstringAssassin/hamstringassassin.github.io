@@ -44,22 +44,22 @@ clients:
   um dolor sit amet, consectetur adipiscing elit.</strong> Maecenas imperdiet venenatis sodales. Nunc elementum scelerisque
    nibh, nec pellentesque lacus hendrerit sit amet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
    ridiculus mus. Cras luctus euismod augue, vitae pulvinar est feugiat vitae. Nunc ultricies facilisis mi sed commodo. 
-   Aliquam erat volutpat. Etiam id libero nunc.</p>'}
+   Aliquam erat volutpat. Etiam id libero nunc.</p>', logo: 'logo1.png'}
   - {avatar: 'face-atariboy.jpg', name: 'Scott Summers', title: 'Director of design, Quebec int', quote: '<p><strong>Lorem ips
   um dolor sit amet, consectetur adipiscing elit.</strong> Maecenas imperdiet venenatis sodales. Nunc elementum scelerisque
    nibh, nec pellentesque lacus hendrerit sit amet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
    ridiculus mus. Cras luctus euismod augue, vitae pulvinar est feugiat vitae. Nunc ultricies facilisis mi sed commodo. 
-   Aliquam erat volutpat. Etiam id libero nunc.</p>'}
+   Aliquam erat volutpat. Etiam id libero nunc.</p>', logo: 'logo2.png'}
   - {avatar: 'face-jackiesaik.jpg', name: 'Scott Summers', title: 'Director of design, Quebec int', quote: '<p><strong>Lorem ips
   um dolor sit amet, consectetur adipiscing elit.</strong> Maecenas imperdiet venenatis sodales. Nunc elementum scelerisque
    nibh, nec pellentesque lacus hendrerit sit amet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
    ridiculus mus. Cras luctus euismod augue, vitae pulvinar est feugiat vitae. Nunc ultricies facilisis mi sed commodo. 
-   Aliquam erat volutpat. Etiam id libero nunc.</p>'}
+   Aliquam erat volutpat. Etiam id libero nunc.</p>', logo: 'logo3.png'}
   - {avatar: 'face-teleject.jpg', name: 'Scott Summers', title: 'Director of design, Quebec int', quote: '<p><strong>Lorem ips
   um dolor sit amet, consectetur adipiscing elit.</strong> Maecenas imperdiet venenatis sodales. Nunc elementum scelerisque
    nibh, nec pellentesque lacus hendrerit sit amet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
    ridiculus mus. Cras luctus euismod augue, vitae pulvinar est feugiat vitae. Nunc ultricies facilisis mi sed commodo. 
-   Aliquam erat volutpat. Etiam id libero nunc.</p>'}
+   Aliquam erat volutpat. Etiam id libero nunc.</p>', logo: 'logo4.png'}
 
 #Site Default content and images here.
 logo: 'logo.svg'

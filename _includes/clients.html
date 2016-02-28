@@ -6,8 +6,14 @@
 		<div class="client-control-prev">{% include icons/icon-prev.html %}</div>
 	</div>
 
+	<div class="clients-mobile-nav">
+		{% for client in site.data.portfolio.clients %}
+		<span></span>
+		{% endfor%}
+	</div>
+
 	<div class="clients-belt">
-	{% for client in site.data.portfolio.clients %}
+		{% for client in site.data.portfolio.clients %}
 		<div class="client-unit">
 			<div class="client-face">
 				<img src="assets/img/clients/{{ client.avatar }}" alt="client-face">
@@ -19,14 +25,14 @@
 				{{ client.quote }}
 			</div>
 		</div>
-	{% endfor %}
+		{% endfor %}
 	</div>
 
+
 	<div class="clients-logos">
-		<div class="client-logo active-client"></div>
-		<div class="client-logo"></div>
-		<div class="client-logo"></div>
-		<div class="client-logo"></div>
+		{% for client in site.data.portfolio.clients %}
+		<img class="client-logo" src="/assets/img/clients/{{client.logo}}" alt="{{client.logo}}">
+		{% endfor %}
 	</div>
 
 </section>
