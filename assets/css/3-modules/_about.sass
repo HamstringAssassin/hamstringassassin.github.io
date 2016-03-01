@@ -8,6 +8,8 @@
 	.face-img
 		border-radius: 50%
 		background:
+			size: cover
+			position: center
 			image: url(/assets/img/#{$avatar-path})
 		+size(200px)
 		+order(3)
@@ -39,13 +41,14 @@
 
 		.face-img
 			display: block
-			background-position: center
-			background-repeat: no-repeat
+			background:
+				position: center center
+				repeat: no-repeat
 			width: auto
-			margin-bottom: 30px
+			margin: 0 auto 30px
 
 		[class^="icon-"]
-			margin: 10px
+			margin: 10px 9%
 
 .blurb
 	max-width: 620px
@@ -95,6 +98,8 @@
 @media screen and (max-width: 541px)
 	.skill-lockup
 		width: 270px
+	.skil-unit
+		width: 220px
 
 
 
