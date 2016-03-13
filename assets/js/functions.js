@@ -29,12 +29,12 @@ function smoothScroll(duration) {
 function workBelt() {
 
 	$('.thumb-unit').click(function() {
-		$('.work-belt').css('left', '-100%');
+		$('.work-belt').addClass('slided');
 		$('.work-container').show();
 	});
 
 	$('.work-return').click(function() {
-		$('.work-belt').css('left','0%');
+		$('.work-belt').removeClass('slided');
 		$('.work-container').hide(800);
 	});
 }
@@ -47,7 +47,7 @@ function workLoad() {
 			newTitle = $this.find('strong').text(),
 			newFolder = $this.data('folder'),
 			spinner = '<div class="loader">Loading...</div>', 
-			newHTML = '/work/'+newFolder+'.html';
+			newHTML = '/work/'+newFolder;
 
 		$('.project-load').html(spinner).load(newHTML);
 		$('.project-title').text(newTitle);
