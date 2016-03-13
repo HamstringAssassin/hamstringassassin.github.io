@@ -1,6 +1,6 @@
 #portfolio settings
 title: Hammy Assassin
-email: 
+email: hammyassassin@gmail.com
 description: Surfer / iOS Developer / Swimmer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
@@ -77,3 +77,13 @@ clients:
    nibh, nec pellentesque lacus hendrerit sit amet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
    ridiculus mus. Cras luctus euismod augue, vitae pulvinar est feugiat vitae. Nunc ultricies facilisis mi sed commodo. 
    Aliquam erat volutpat. Etiam id libero nunc.</p>', logo: 'logo4.png'}
+
+
+#-------------------------------
+#Contact Section
+social:
+  - {icon: 'twitter', link: 'https://twitter.com/HammyAssassin'}
+  - {icon: 'github', link: 'https://github.com/HamstringAssassin'}
+  - {icon: 'linkedin', link: ''}
+  - {icon: 'soundcloud', link: ''}
+  - {icon: 'facebook', link: ''}
