@@ -6,7 +6,6 @@ $( document ).ready(function() {
 
 	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
 	$(".biglink").fitText(1.5);
-
 	$('textarea').autosize();
 });
 
@@ -97,6 +96,16 @@ function clientStuff() {
 
 }
 
+/*global jQuery */
+/*!
+* FitText.js 1.2
+*
+* Copyright 2011, Dave Rupert http://daverupert.com
+* Released under the WTFPL license
+* http://sam.zoy.org/wtfpl/
+*
+* Date: Thu May 05 14:23:00 2011 -0600
+*/
 (function( $ ){
 
   $.fn.fitText = function( kompressor, options ) {
