@@ -25,6 +25,7 @@ menu:
   - {name: Work, url: '#work'}
   - {name: Clients, url: '#clients'}
   - {name: Contact, url: '#contact'}
+  - {name: Recipes, url: '/Recipes'}
  
 # SEO Section
 # NOTE: Providing SEO information will make this website more searchable on the internet.
