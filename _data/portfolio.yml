@@ -80,8 +80,6 @@ clients:
    ridiculus mus. Cras luctus euismod augue, vitae pulvinar est feugiat vitae. Nunc ultricies facilisis mi sed commodo. 
    Aliquam erat volutpat. Etiam id libero nunc.</p>', logo: 'logo4.png'}
 
-
-#-------------------------------
 #Contact Section
 social:
   - {icon: 'twitter', link: 'https://twitter.com/HammyAssassin'}
